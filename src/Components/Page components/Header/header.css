@@ -5,7 +5,12 @@
 .header {
     width: var(--container-width-md);
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
+}
+.header__image-one img{
+    width: 7rem;
+    
 }
 .header__title {
     text-align: center;

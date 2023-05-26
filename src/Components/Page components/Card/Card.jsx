@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({className, children}) => {
   return (
-    <div>Card</div>
+    <>
+       <article className={`card ${className}`}>
+          {children}
+        </article>
+    </>
   )
 }
 

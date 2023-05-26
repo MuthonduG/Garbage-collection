@@ -1,0 +1,18 @@
+.about__container-holder {
+    display: grid;
+    place-items: center;
+}
+#about {
+    display: grid;
+    place-items: center;
+    width: var(--container-width-md);
+}
+.about__card {
+    overflow: hidden;
+}
+.about__card .card img {
+    width: 30rem;
+    aspect-ratio: 1/1;
+    border: 2px solid var(--color-secondary);
+    border-radius: 0.4rem;
+}
