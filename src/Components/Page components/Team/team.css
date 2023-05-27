@@ -1,0 +1,37 @@
+.team__container {
+    display: grid;
+    place-items: center;
+}
+.team__container-holder {
+    display: grid;
+    place-items: center;
+    width: var(--container-width-md);
+}
+.team__card-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: var(--container-width-md);  
+}
+.team__card-holder .card {
+    width: 15rem;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.team__card-holder .card:hover {
+    margin-top: -0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem var(--color-secondary-light);
+    color: var(--color-white);
+}
+.image{
+    border: 2px solid var(--color-secondary);
+    transition: var(--transition);
+}
+.image:hover:hover {
+    filter: grayscale(90%);
+}
+.card__holder {
+    text-align: center;
+}

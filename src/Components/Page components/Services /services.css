@@ -34,5 +34,5 @@
 .services__card-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 6rem;
+    gap: 5rem;
 }
