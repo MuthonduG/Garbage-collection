@@ -1,0 +1,38 @@
+.services__container {
+    display: grid;
+    place-items: center;
+}
+.services__holder {
+    display: grid;
+    place-items: center;
+    width: var(--container-width-md);
+}
+.services__main-header {
+    text-align: center;
+    width: var(--container-width-md);
+}
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 1rem;
+    width: var(--container-width-md);
+    padding: 2rem;
+}
+.services article {
+    padding: 0.5rem;
+}
+.service-one, .service-four, .service-five {
+    border: 2px solid var(--color-secondary);
+    border-radius: 1rem;
+    background: var(--color-primary-variant);
+}
+.service-two, .service-three, .service-six {
+    border: transparent;
+    border-radius: 1rem;
+}
+.services__card-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+}
