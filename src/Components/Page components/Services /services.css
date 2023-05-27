@@ -21,6 +21,14 @@
 }
 .services article {
     padding: 0.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.services article:hover {
+    border: 2px solid var(--color-secondary);
+    background: var(--color-secondary);
+    color: var(--color-white);
+    margin-top: -02rem;
 }
 .service-one, .service-four, .service-five {
     border: 2px solid var(--color-secondary);
