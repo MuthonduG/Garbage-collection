@@ -10,9 +10,11 @@
     place-items: center;
     width: var(--container-width-md);
 }
-.navbar__icon {
+.navbar__icon a{
     display: flex;
     gap: 1rem;
+    text-decoration: none;
+    color: var(--color-secondary);
 }
 .navbar__icon h3{
     margin-top: 1.5rem;

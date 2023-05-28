@@ -2,6 +2,7 @@ import React from 'react'
 import './navbar.css'
 import Icon from '../../../Assets /icon2.png'
 import {navlinks} from '../../../data'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -9,8 +10,11 @@ const Navbar = () => {
       <section className="navbar__container-holder">
         <div className="navbar__container">
           <div className="navbar__icon">
+            <Link to='/'>
             <img src={Icon} alt="" />
             <h3>Taka</h3>
+            </Link>
+            
           </div>
           <div className="nav__links">
           {
@@ -24,8 +28,8 @@ const Navbar = () => {
             }
           </div>
           <div className="nav__buttons">
-            <a href="!#" className="btn sm">Log in</a>
-            <a href="!#" className="btn sm">Sign up</a>
+            <Link to="/login" className="btn sm">Log in</Link>
+            <Link to="/signup" className="btn sm">Sign up</Link>
           </div>
         </div>
       </section>
