@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <>
       <section className="contact__container container">
-        <div className="contact__container-holder">
+        <div id='contact' className="contact__container-holder">
           <div className="contact__form-holder">
             <form action="" className="form">
               <div className="form__input-group">

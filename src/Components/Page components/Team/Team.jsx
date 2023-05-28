@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <>
       <section className="team__container container">
-        <div className="team__container-holder">
+        <div id='team' className="team__container-holder">
           <div className="team__header-holder">
             <h3>Our Dedicated Team</h3>
           </div>

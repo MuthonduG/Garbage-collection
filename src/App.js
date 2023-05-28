@@ -1,22 +1,21 @@
 import './App.css';
-import Navbar from '../src/Components/Page components/Navbar/Navbar'
-import Header from '../src/Components/Page components/Header/Header'
-import About from '../src/Components/Page components/About/About'
-import Services from './Components/Page components/Services /Services'
-import Team from './Components/Page components/Team/Team'
-import Contact from './Components/Page components/Contact/Contact'
-import Footer from './Components/Page components/Footer/Footer';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import Landing from './Components/Main Pages/Landing/Landing';
+import Login from './Components/Page components/Login/Login';
+import Signup from './Components/Page components/Signup/Signup'
+import Dashboard from './Components/Main Pages/Dashboard/Dashboard'
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Services/>
-      <Team/>
-      <Contact/>
-      <Footer/>
+    <Router>
+      <Routes>
+        <Route index element={<Landing/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
+      </Routes>
+    </Router>
     </>
   );
 }
