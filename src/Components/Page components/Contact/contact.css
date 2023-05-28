@@ -12,6 +12,7 @@
 .form input, textarea {
     border: 2px solid var(--color-secondary);
     border-radius: 0.2rem;
+    resize: none;
 }
 .form__input-group {
     display: flex;
