@@ -1,0 +1,29 @@
+.footer {
+    display: grid;
+    place-items: center;
+    background: var(--color-primary);
+    border-top: 2px solid var(--color-secondary);
+    padding-bottom: 2rem;
+}
+.footer__container {
+    display: grid;
+    place-items: center;
+}
+.footer__container-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: var(--container-width-md);
+    place-items: center;
+}
+.footer__contact {
+    display: flex;
+    gap: 1.5rem;
+    line-height: 1.7;
+}
+.form__input-buttons .subscribe {
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
+.footer__contact-header {
+    text-align: center;
+}

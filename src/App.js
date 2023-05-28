@@ -5,6 +5,7 @@ import About from '../src/Components/Page components/About/About'
 import Services from './Components/Page components/Services /Services'
 import Team from './Components/Page components/Team/Team'
 import Contact from './Components/Page components/Contact/Contact'
+import Footer from './Components/Page components/Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Services/>
       <Team/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

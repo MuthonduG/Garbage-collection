@@ -2,6 +2,7 @@
     display: grid;
     place-items: center;
     border-bottom: 2px solid var(--color-secondary);
+    border-top: 2px solid var(--color-secondary);
 } 
 .navbar__container {
     display: grid;

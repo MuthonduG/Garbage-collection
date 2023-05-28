@@ -1,6 +1,7 @@
 .contact__container {
     display: grid;
     place-items: center;
+    margin-bottom: 3rem;
 }
 .contact__container-holder {
     display: grid;
