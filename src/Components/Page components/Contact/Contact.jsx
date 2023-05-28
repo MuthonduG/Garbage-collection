@@ -16,15 +16,19 @@ const Contact = () => {
             <form action="" className="form">
               <div className="form__input-group">
                 <label htmlFor="">Name:</label>
-                <input type="text" placeholder='Enter name or company name'/>
+                <input type="text" placeholder='Enter name or company name' required/>
               </div>
               <div className="form__input-group">
                 <label htmlFor="">Email:</label>
-                <input type="text" placeholder='Enter name or company name'/>
+                <input type="email" placeholder='Enter email or company email' required/>
               </div>
               <div className="form__input-group">
                 <label htmlFor="">Phone number:</label>
-                <input type="text" placeholder='Enter name or company name'/>
+                <input type="text" placeholder='Enter phone number' required/>
+              </div>
+              <div className="form__input-group">
+                <label htmlFor="">Current date:</label>
+                <input type="date" placeholder='Enter phone number' required/>
               </div>
               <div className="form__input-group">
                 <label htmlFor="">Message:</label>

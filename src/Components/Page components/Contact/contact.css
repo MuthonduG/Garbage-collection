@@ -38,7 +38,7 @@
 .form__input-buttons {
     display: grid;
     place-items: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .form__input-buttons button {
     background: var(--color-primary);
