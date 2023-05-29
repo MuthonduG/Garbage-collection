@@ -38,7 +38,7 @@ export const team = [
 
 export const userlinks = [
     {
-        path: '!#',
+        path: '/profile',
         name: 'Profile'
     }, 
     {

@@ -29,6 +29,7 @@
     background: var(--color-secondary);
     color: var(--color-white);
     margin-top: -02rem;
+    border-radius: 0;
 }
 .service-one, .service-four, .service-five {
     border: 2px solid var(--color-secondary);

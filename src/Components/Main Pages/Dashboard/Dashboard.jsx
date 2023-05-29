@@ -2,6 +2,7 @@ import React from 'react'
 import './dashboard.css'
 import Usernav from '../../Page components/User Nav/Usernav'
 import Card from '../../Page components/Card/Card'
+import Footer from '../../Page components/Footer/Footer'
 
 const Dashboard = () => {
   return (
@@ -24,7 +25,7 @@ const Dashboard = () => {
               </div>
               <div className="dashboard__content-body">
                 <strong className="dashoard__name">Phone number:</strong>
-                <small className="dashboard__name-holder">Maxwell Githinji</small>
+                <small className="dashboard__name-holder">254 795 107 488</small>
               </div>
               <div className="dashboard__content-body">
                 <strong className="dashoard__name">Current residence:</strong>
@@ -228,6 +229,7 @@ const Dashboard = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   )
 }

@@ -1,6 +1,7 @@
 .dashboard__container {
     display: grid;
     place-items: center;
+    margin-bottom: 3rem;
 }
 .dashboard__profile {
     border: 1px solid var(--color-secondary);

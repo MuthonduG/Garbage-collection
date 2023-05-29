@@ -1,0 +1,34 @@
+.profile__container {
+    display: grid;
+    place-items: center;
+}
+.profile__card-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+    width: var(--container-width-md);
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.profile__card-avatar img {
+    width: 20rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-primary);
+}
+.profile__content-user, .profile__content-package, .profile__info-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+.profile__content-package small {
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+    width: max-content;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}

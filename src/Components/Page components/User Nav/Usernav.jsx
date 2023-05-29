@@ -20,7 +20,7 @@ const Usernav = () => {
             userlinks && userlinks.map(({name, path}, index)=> {
                 return (
                     <li key={index}>
-                        <a href = {path}>{name}</a>
+                        <Link to = {path}>{name}</Link>
                     </li>
                 )
               })
