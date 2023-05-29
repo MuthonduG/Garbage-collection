@@ -1,0 +1,37 @@
+.packages__container {
+    display: grid;
+    place-items: center;
+    margin-bottom: 6rem;
+}
+.packages__container-holder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+    width: var(--container-width-md);
+}
+.packages__card {
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+.packages__card-header {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 2rem;
+}
+.packages__card-includes {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    text-align: center;
+    line-height: 2;
+}
+.packages__header-content {
+    display: flex;
+    gap: 1rem;
+}
+.packages__header-content .offer__crossed-price {
+    text-decoration: line-through;
+}

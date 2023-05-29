@@ -42,7 +42,7 @@ export const userlinks = [
         name: 'Profile'
     }, 
     {
-        path: '!#',
+        path: '/packages',
         name: 'Packages'
     }
 ]
