@@ -1,0 +1,10 @@
+.notfound__container {
+    display: grid;
+    place-items: center;
+    margin-bottom: 5rem;
+}
+.notfound__container-holder .card {
+    color: var(--color-primary);
+    text-align: center;
+    width: var(--container-width-md);
+}
