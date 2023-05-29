@@ -1,0 +1,65 @@
+.dashboard__container {
+    display: grid;
+    place-items: center;
+}
+.dashboard__profile {
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+.dashboard__container-holder {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 5%;
+    place-items: center;
+    width: var(--container-width-md);
+}
+.dashboard__profile-avatar {
+    overflow: hidden;
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.dashboard__profile-avatar img {
+    border-radius: 50%;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    background: var(--color-white);
+    border:  2px solid var(--color-secondary);
+}
+.dashboard__profile-content {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
+    align-items: center;
+}
+.dashboard__content-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.dashboard__package {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.dashboard__package .dashboard__package-status {
+    background: var(--color-primary-variant);
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    color: var(--color-white);
+}
+.dashboard__main-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.dashboard__main-body .card {
+    padding: 0.5rem;
+}
+.dashboard__card-date {
+    display: flex;
+    gap: 0.5rem;
+}

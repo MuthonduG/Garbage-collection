@@ -17,16 +17,17 @@ const Login = () => {
           </div>
           <form action="" className="form__login">
             <div className="login__form-input-grp">
-              <label htmlFor="">Username/ Comapany name:</label>
+              <label htmlFor="">Username/ Company name:</label>
               <input type="text" placeholder='Enter username/ Company name' required/>
             </div>
             <div className="login__form-input-grp">
               <label htmlFor="">Password:</label>
               <input type="password" placeholder='Enter Password' required/>
+              <Link to='/'>Forgot password?</Link>
             </div>
             <div className="login__form-buttons">
               <button type="submit" className='btn sm'>Login</button>
-              <Link to='/signup'>Don't have an account,sign up</Link>
+              <Link to='/signup'>Don't have an account? Sign up</Link>
             </div>
           </form>
         </div>

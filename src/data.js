@@ -35,3 +35,14 @@ export const team = [
         name: 'Joseph Wamiti'
     }
 ]
+
+export const userlinks = [
+    {
+        path: '!#',
+        name: 'Profile'
+    }, 
+    {
+        path: '!#',
+        name: 'Packages'
+    }
+]

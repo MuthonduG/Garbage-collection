@@ -11,10 +11,9 @@ const Navbar = () => {
         <div className="navbar__container">
           <div className="navbar__icon">
             <Link to='/'>
-            <img src={Icon} alt="" />
-            <h3>Taka</h3>
+              <img src={Icon} alt=""/>
+              <h3>Taka</h3>
             </Link>
-            
           </div>
           <div className="nav__links">
           {

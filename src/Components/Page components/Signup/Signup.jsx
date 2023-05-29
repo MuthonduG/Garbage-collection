@@ -17,7 +17,7 @@ const Signup = () => {
           </div>
           <form action="" className="form__login">
             <div className="login__form-input-grp">
-              <label htmlFor="">Username/ Comapany name:</label>
+              <label htmlFor="">Username/ Company name:</label>
               <input type="text" placeholder='Enter username/ Company name' required/>
             </div>
             <div className="login__form-input-grp">
@@ -45,8 +45,8 @@ const Signup = () => {
               <input type="password" placeholder='Enter Password' required/>
             </div>
             <div className="login__form-buttons">
-              <button type="submit" className='btn sm'>Login</button>
-              <Link to='/login'>Already have an account, Login</Link>
+              <button type="submit" className='btn sm'>Sign up</button>
+              <Link to='/login'>Already have an account? Login</Link>
             </div>
           </form>
         </div>
