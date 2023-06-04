@@ -41,3 +41,6 @@
 .form__group-logo strong {
     margin-top: 1rem;
 }
+.error {
+    color: var(--color-secondary-variant);
+}

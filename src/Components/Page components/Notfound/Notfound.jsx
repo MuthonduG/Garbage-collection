@@ -11,8 +11,8 @@ const Notfound = () => {
         <section className="notfound__container container">
             <div className="notfound__container-holder">
                 <Card>
-                    <h1>Page Not Found</h1>
-                    <h3>404</h3>
+                    <h1>Error 404</h1>
+                    <h3>Page Not Found</h3>
                 </Card>
             </div>
         </section>
@@ -21,4 +21,4 @@ const Notfound = () => {
   )
 }
 
-export default Notfound
+export default Notfound 
